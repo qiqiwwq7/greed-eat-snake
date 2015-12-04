@@ -1,0 +1,368 @@
+body{
+	margin:0;
+	padding: 0;
+	background:#fff;
+}
+#box2{
+ width: 1366px;
+ height: 660px;
+ margin:0 auto;
+ position: absolute;top:0;
+ left: 0;
+ background:url(../images/25.jpg) no-repeat;
+ display: none;
+}
+#hergin{
+ width: 1366px;
+ height: 660px;
+ margin:0 auto;
+ position: absolute;
+}
+#dabox{
+ width: 1366px;
+ height: 660px;
+ margin:0 auto;
+ background:url(../images/23.jpg) no-repeat;
+ position: absolute;
+ top:0;
+ left:0;
+ z-index: 99;
+ /*display: none;*/
+
+}
+.box-1{
+	width: 400px;
+	height: 400px;
+	background:#fff;
+	background-size:100%;
+	position: absolute;
+	left:195px;
+	top:95px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 100px #272E03 ;
+}
+.box{
+	width: 400px;
+	height: 400px;
+	background:url(../images/shouye.jpg) no-repeat;
+	background-size:100%;
+	position:absolute;
+	left:20px;
+	top:70px;
+	border-radius: 50%;
+}
+audio{
+	background: yellow;
+	border-radius: 6px;
+}
+#header{
+	position: absolute;
+	top:50px;
+	right:250px;
+   width: 450px;
+   height: 150px;
+   background: url(../images/header.png) no-repeat;
+   background-size:100%;
+}
+.zhunbei{
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	top:250px;
+	right:310px;
+	border:1px solid #fff;
+	box-shadow: 0 0 20px #fff;
+   background-size:100%;
+   text-align: center;
+   line-height: 60px;
+  font-size: 36px;
+  color: #fff;
+  font-family: 'AR JULIAN';
+}
+#go{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    color: #fff;
+   font-family: 'AR JULIAN';
+   position: absolute;
+   top:350px;
+   right: 405px;
+	border:1px solid #fff;
+	box-shadow: 0 0 20px #fff;
+    cursor: pointer;
+}
+#text{
+	width: 600px;
+	height: 600px;
+	border:1px solid #fff;
+	margin-left:400px;
+	margin-top:20px;
+	background: #000;
+	box-shadow: 0 0 20px #000;
+}
+#speed{
+	width: 250px;
+	height:600px;
+	/*border:1px solid #fff;*/
+	box-shadow: 0 0 10px #000 inset;
+	position: absolute;
+	top:0px;
+	left:70px;
+	background:rgba(0,0,0,0.3);
+	margin-top:20px;
+}
+#kaishi{
+	width:250px;
+	height: 250px;
+	background: url(../images/022.jpg) no-repeat;
+	background-size:100%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #000;
+	text-align: center;
+	line-height: 300px;
+	box-shadow: 0 0 10px #000 inset;
+	color:#fff;
+	font-size: 36px;
+	font-family: '汉仪娃娃篆简';
+	font-weight: 800;
+	cursor: pointer;
+
+}
+#fast{
+	width: 80px;
+	height: 80px;
+	background: #BCBE05;
+	border-radius: 50%;
+	position: absolute;
+	top:230px;
+	right:40px;
+	text-align: center;
+	line-height: 80px;
+	box-shadow: 0 0 10px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+}
+#menium{
+	width: 90px;
+	height: 90px;
+	background: #BCBE05;
+	border-radius: 50%;
+	position:absolute;
+	top:270px;
+    left:25px;
+	text-align: center;
+	line-height: 90px;
+	box-shadow: 0 0 25px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+}
+#Low-speed{
+	width: 100px;
+	height: 100px;
+	background: #BCBE05;
+	border-radius: 50%;
+	position:absolute;
+	top:340px;
+	left:90px;
+	text-align: center;
+	line-height: 100px;
+	box-shadow: 0 0 25px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+}
+#chonglai{
+	width: 200px;
+	height: 70px;
+	background: #BCBE05;
+	position:absolute;
+	top:480px;
+	left:25px;
+	text-align: center;
+	line-height: 70px;
+	box-shadow: 0 0 45px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: 800;
+}
+#she2{
+	width:250px;
+	height:500px;
+	background:url(./images/she2.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:230px;
+	right:50px;
+}
+#menium{
+	width: 90px;
+	height: 90px;
+	background: #BCBE05;
+	border-radius: 50%;
+	position:absolute;
+	top:270px;
+    left:25px;
+	text-align: center;
+	line-height: 90px;
+	box-shadow: 0 0 25px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+}
+#Low-speed{
+	width: 100px;
+	height: 100px;
+	background: #BCBE05;
+	border-radius: 50%;
+	position:absolute;
+	top:340px;
+	left:90px;
+	text-align: center;
+	line-height: 100px;
+	box-shadow: 0 0 45px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+}
+#chonglai{
+	width: 200px;
+	height: 70px;
+	background: #BCBE05;
+	position:absolute;
+	top:480px;
+	left:25px;
+	text-align: center;
+	line-height: 70px;
+	box-shadow: 0 0 45px #000 inset;
+	color:#fff;
+	font-size: 30px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: 800;
+}
+#she2{
+	width:250px;
+	height:500px;
+	background:url(../images/she2.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:230px;
+	right:50px;
+}
+#zhezhao{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+#jishuqi{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top:30px;
+	right:100px;
+	text-align: center;
+	line-height: 50px;
+	box-shadow: 0 0 20px #000 inset;
+	color:#fff;
+	font-size: 24px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+	border-radius: 10px;
+}
+#biaoyangkuang{
+	width: 200px;
+	height: 130px;
+	position: absolute;
+	top:90px;
+    right:100px;
+    display: none;
+}
+.hua{
+	width:64px;
+	height: 80px;
+	margin-left:1px;
+	background: url(../images/proxy.gif) no-repeat;
+	background-size:100%;
+	float: left;
+}
+#kuang{
+	width: 100%;
+	height: 50px;
+	background:#FC0308;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	box-shadow: 0 0 20px #fff inset;
+	color:#fff;
+	font-size: 24px;
+	font-family: '汉仪娃娃篆简';
+	border-radius: 10px;
+}
+#yihan{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top:360px;
+	left:550px;
+	display: none;
+}
+.she3{
+	width: 150px;
+	height: 260px;
+	position: absolute;
+	left:-50px;
+	bottom:-50px;
+	background: url(../images/she3.png) no-repeat;
+	background-size:100%;
+}
+#shibai{
+	width: 200px;
+	height: 100%;
+	position:absolute;
+	top:0;
+	right: 0;
+	background:#FC0308;
+	text-align: center;
+	line-height: 50px;
+	box-shadow: 0 0 20px #fff inset;
+	color:#fff;
+	font-size: 24px;
+	font-family: '汉仪娃娃篆简';
+	border-radius: 10px;
+}
+#qiedingshibai{
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left:-25px;
+	bottom:10;
+	border:1px solid #fff;
+	box-shadow: 0 0 10px #fff inset;
+	text-align: center;
+	line-height: 30px;
+	color:#fff;
+	font-size: 18px;
+	font-family: '汉仪娃娃篆简';
+	cursor: pointer;
+	border-radius: 5px;
+}
